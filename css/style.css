@@ -7,6 +7,10 @@ body {
     background-color: beige;
 }
 
+#header > h1 {
+    margin: 0;
+}
+
 #nav {
     width:100%;
     background-color: aqua;
@@ -17,9 +21,12 @@ body {
     background:#e2f0fd;
     justify-content: space-around;
     list-style-type: none;
+    margin: 0;
 }
 
-#middle-wrapper
+#middle-wrapper {
+    display: flex;
+}
 
 #main-content-wrapper {
     background-color: greenyellow;
@@ -29,4 +36,13 @@ body {
 #aside-content-wrapper {
     background-color: plum;
     width: 20%;
+}
+
+footer {
+    background-color: coral;
+    margin:0;
+}
+
+footer > h1 {
+    margin: 0;
 }
